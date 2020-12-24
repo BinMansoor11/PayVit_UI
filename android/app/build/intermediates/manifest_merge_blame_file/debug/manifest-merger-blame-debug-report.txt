@@ -1,0 +1,284 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.payvit"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:4:3-75
+11-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:4:20-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:2:3-64
+12-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:2:20-62
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:5:3-72
+13-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:5:20-70
+14    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+14-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:6:3-71
+14-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:6:20-69
+15    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+15-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:7:3-69
+15-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:7:20-67
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:8:3-63
+16-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:8:20-61
+17    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" /> <!-- These require runtime permissions on M -->
+17-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:9:3-77
+17-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:9:20-75
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:11:3-78
+18-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:11:20-76
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:12:3-76
+19-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:12:20-74
+20    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+20-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:13:3-82
+20-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:13:20-80
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:14:3-62
+21-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:14:20-60
+22    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+22-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:15:3-68
+22-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:15:20-66
+23    <uses-permission android:name="android.permission.READ_CONTACTS" />
+23-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:16:3-69
+23-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:16:20-67
+24    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+24-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:17:3-70
+24-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:17:20-68
+25    <uses-permission android:name="android.permission.READ_CALENDAR" />
+25-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:18:3-69
+25-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:18:20-67
+26    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+26-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:19:3-70
+26-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:19:20-68
+27    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+27-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:20:3-77
+27-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:20:20-75
+28    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+28-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:21:3-78
+28-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:21:20-76
+29    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+29-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:22:3-70
+29-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:22:20-68
+30    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+30-->[com.facebook.flipper:flipper:0.54.0] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\a0953a6941c1135d57623c7d643d23a3\flipper-0.54.0\AndroidManifest.xml:16:5-76
+30-->[com.facebook.flipper:flipper:0.54.0] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\a0953a6941c1135d57623c7d643d23a3\flipper-0.54.0\AndroidManifest.xml:16:22-73
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->[:expo-updates] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-79
+31-->[:expo-updates] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-76
+32    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+32-->[:expo-location] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-77
+32-->[:expo-location] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:22-74
+33    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+33-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\49bd0653391e601cfb37dc5d625d8a57\jetified-library-3.2.11\AndroidManifest.xml:15:5-98
+33-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\49bd0653391e601cfb37dc5d625d8a57\jetified-library-3.2.11\AndroidManifest.xml:15:22-95
+34    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+34-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\49bd0653391e601cfb37dc5d625d8a57\jetified-library-3.2.11\AndroidManifest.xml:16:5-94
+34-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\49bd0653391e601cfb37dc5d625d8a57\jetified-library-3.2.11\AndroidManifest.xml:16:22-91
+35
+36    <application
+36-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:24:3-50:17
+37        android:name="com.payvit.MainApplication"
+37-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:25:5-36
+38        android:allowBackup="false"
+38-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:29:5-32
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.1.0] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\6466522822c9f31c5107b8fc2277998a\core-1.1.0\AndroidManifest.xml:24:18-86
+40        android:debuggable="true"
+41        android:icon="@mipmap/ic_launcher"
+41-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:27:5-39
+42        android:label="@string/app_name"
+42-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:26:5-37
+43        android:roundIcon="@mipmap/ic_launcher_round"
+43-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:28:5-50
+44        android:theme="@style/AppTheme"
+44-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:30:5-36
+45        android:usesCleartextTraffic="true" >
+45-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\debug\AndroidManifest.xml:6:18-53
+46        <meta-data
+46-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:32:5-122
+47            android:name="expo.modules.updates.EXPO_UPDATE_URL"
+47-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:32:16-67
+48            android:value="https://exp.host/@harjinders/PayVit" />
+48-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:32:68-119
+49        <meta-data
+49-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:33:5-94
+50            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+50-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:33:16-68
+51            android:value="39.0.0" />
+51-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:33:69-91
+52        <meta-data
+52-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:34:5-99
+53            android:name="expo.modules.updates.EXPO_RELEASE_CHANNEL"
+53-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:34:16-72
+54            android:value="default" />
+54-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:34:73-96
+55
+56        <activity
+56-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:36:3-48:16
+57            android:name="com.payvit.MainActivity"
+57-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:37:5-33
+58            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+58-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:39:7-84
+59            android:label="@string/app_name"
+59-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:38:7-39
+60            android:launchMode="singleTask"
+60-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:40:7-38
+61            android:theme="@style/Theme.App.SplashScreen"
+61-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:42:7-52
+62            android:windowSoftInputMode="adjustResize" >
+62-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:41:7-49
+63            <intent-filter>
+63-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:44:7-47:23
+64                <action android:name="android.intent.action.MAIN" />
+64-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:45:9-60
+64-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:45:17-58
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:46:9-68
+66-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:46:19-66
+67            </intent-filter>
+68        </activity>
+69        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+69-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:49:5-81
+69-->C:\Users\rizwa\Documents\Projects\TestApp\android\app\src\main\AndroidManifest.xml:49:15-79
+70
+71        <meta-data
+71-->[:unimodules-react-native-adapter] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:91
+72            android:name="org.unimodules.core.AppLoader#react-native-headless"
+72-->[:unimodules-react-native-adapter] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-79
+73            android:value="org.unimodules.adapters.react.apploader.RNHeadlessAppLoader" />
+73-->[:unimodules-react-native-adapter] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-88
+74
+75        <provider
+75-->[:react-native-webview] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+76            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+76-->[:react-native-webview] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-83
+77            android:authorities="com.payvit.fileprovider"
+77-->[:react-native-webview] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-64
+78            android:exported="false"
+78-->[:react-native-webview] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+79            android:grantUriPermissions="true" >
+79-->[:react-native-webview] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+80            <meta-data
+80-->[:react-native-webview] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:63
+81                android:name="android.support.FILE_PROVIDER_PATHS"
+81-->[:react-native-webview] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
+82                android:resource="@xml/file_provider_paths" />
+82-->[:react-native-webview] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-60
+83        </provider>
+84        <provider
+84-->[:expo-file-system] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-26:20
+85            android:name="expo.modules.filesystem.FileSystemFileProvider"
+85-->[:expo-file-system] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-74
+86            android:authorities="com.payvit.FileSystemFileProvider"
+86-->[:expo-file-system] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-74
+87            android:exported="false"
+87-->[:expo-file-system] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-37
+88            android:grantUriPermissions="true" >
+88-->[:expo-file-system] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-47
+89            <meta-data
+89-->[:react-native-webview] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:63
+90                android:name="android.support.FILE_PROVIDER_PATHS"
+90-->[:react-native-webview] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
+91                android:resource="@xml/file_system_provider_paths" />
+91-->[:react-native-webview] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-60
+92        </provider> <!-- https://developer.android.com/guide/topics/manifest/provider-element.html -->
+93        <provider
+93-->[:expo-image-picker] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\expo-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:9-28:20
+94            android:name="expo.modules.imagepicker.ImagePickerFileProvider"
+94-->[:expo-image-picker] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\expo-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-76
+95            android:authorities="com.payvit.ImagePickerFileProvider"
+95-->[:expo-image-picker] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\expo-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-75
+96            android:exported="false"
+96-->[:expo-image-picker] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\expo-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-37
+97            android:grantUriPermissions="true" >
+97-->[:expo-image-picker] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\expo-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-47
+98            <meta-data
+98-->[:react-native-webview] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:63
+99                android:name="android.support.FILE_PROVIDER_PATHS"
+99-->[:react-native-webview] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
+100                android:resource="@xml/image_picker_provider_paths" />
+100-->[:react-native-webview] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-60
+101        </provider>
+102        <provider
+102-->[:expo-sharing] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\expo-sharing\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+103            android:name="expo.modules.sharing.SharingFileProvider"
+103-->[:expo-sharing] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\expo-sharing\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-68
+104            android:authorities="com.payvit.SharingFileProvider"
+104-->[:expo-sharing] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\expo-sharing\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-71
+105            android:exported="false"
+105-->[:expo-sharing] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\expo-sharing\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+106            android:grantUriPermissions="true" >
+106-->[:expo-sharing] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\expo-sharing\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+107            <meta-data
+107-->[:react-native-webview] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:63
+108                android:name="android.support.FILE_PROVIDER_PATHS"
+108-->[:react-native-webview] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
+109                android:resource="@xml/sharing_provider_paths" />
+109-->[:react-native-webview] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-60
+110        </provider>
+111
+112        <service
+112-->[:expo-location] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-19:40
+113            android:name="expo.modules.location.services.LocationTaskService"
+113-->[:expo-location] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-78
+114            android:exported="false" />
+114-->[:expo-location] C:\Users\rizwa\Documents\Projects\TestApp\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-37
+115
+116        <activity
+116-->[androidx.biometric:biometric:1.0.1] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\1f742b35e9fe8c0c0eb4b25cd26cc4bb\biometric-1.0.1\AndroidManifest.xml:28:9-31:67
+117            android:name="androidx.biometric.DeviceCredentialHandlerActivity"
+117-->[androidx.biometric:biometric:1.0.1] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\1f742b35e9fe8c0c0eb4b25cd26cc4bb\biometric-1.0.1\AndroidManifest.xml:29:13-78
+118            android:exported="true"
+118-->[androidx.biometric:biometric:1.0.1] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\1f742b35e9fe8c0c0eb4b25cd26cc4bb\biometric-1.0.1\AndroidManifest.xml:30:13-36
+119            android:theme="@style/DeviceCredentialHandlerTheme" />
+119-->[androidx.biometric:biometric:1.0.1] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\1f742b35e9fe8c0c0eb4b25cd26cc4bb\biometric-1.0.1\AndroidManifest.xml:31:13-64
+120        <activity
+120-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\9c0d3fc6122dbe9b0a872eab92b3b948\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+121            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+121-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\9c0d3fc6122dbe9b0a872eab92b3b948\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+122            android:exported="false"
+122-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\9c0d3fc6122dbe9b0a872eab92b3b948\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+123            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+123-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\9c0d3fc6122dbe9b0a872eab92b3b948\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+124
+125        <meta-data
+125-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\f4e3056e971bab39c427fd01c4251bc6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+126            android:name="com.google.android.gms.version"
+126-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\f4e3056e971bab39c427fd01c4251bc6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+127            android:value="@integer/google_play_services_version" />
+127-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\f4e3056e971bab39c427fd01c4251bc6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+128
+129        <service
+129-->[androidx.room:room-runtime:2.1.0] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\898fed8d11cb5011c5de37f62ab2a5a4\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
+130            android:name="androidx.room.MultiInstanceInvalidationService"
+130-->[androidx.room:room-runtime:2.1.0] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\898fed8d11cb5011c5de37f62ab2a5a4\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
+131            android:exported="false" />
+131-->[androidx.room:room-runtime:2.1.0] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\898fed8d11cb5011c5de37f62ab2a5a4\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
+132        <service
+132-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\49bd0653391e601cfb37dc5d625d8a57\jetified-library-3.2.11\AndroidManifest.xml:19:9-21:40
+133            android:name="io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService"
+133-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\49bd0653391e601cfb37dc5d625d8a57\jetified-library-3.2.11\AndroidManifest.xml:20:13-132
+134            android:exported="false" />
+134-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\49bd0653391e601cfb37dc5d625d8a57\jetified-library-3.2.11\AndroidManifest.xml:21:13-37
+135        <service
+135-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\49bd0653391e601cfb37dc5d625d8a57\jetified-library-3.2.11\AndroidManifest.xml:22:9-24:40
+136            android:name="io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService"
+136-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\49bd0653391e601cfb37dc5d625d8a57\jetified-library-3.2.11\AndroidManifest.xml:23:13-127
+137            android:exported="false" />
+137-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\49bd0653391e601cfb37dc5d625d8a57\jetified-library-3.2.11\AndroidManifest.xml:24:13-37
+138        <service
+138-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\49bd0653391e601cfb37dc5d625d8a57\jetified-library-3.2.11\AndroidManifest.xml:25:9-27:40
+139            android:name="io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService"
+139-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\49bd0653391e601cfb37dc5d625d8a57\jetified-library-3.2.11\AndroidManifest.xml:26:13-120
+140            android:exported="false" />
+140-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\rizwa\.gradle\caches\transforms-2\files-2.1\49bd0653391e601cfb37dc5d625d8a57\jetified-library-3.2.11\AndroidManifest.xml:27:13-37
+141    </application>
+142
+143</manifest>

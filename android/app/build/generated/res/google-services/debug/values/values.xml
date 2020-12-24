@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">737760772570-ipvfj0rk02033fkuo60qdf78eqf8d295.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://payvit-bdfcd.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">737760772570</string>
+    <string name="google_api_key" translatable="false">AIzaSyBiIFpWRfjCagDZRWDBUWQdZb1qSJSm6d8</string>
+    <string name="google_app_id" translatable="false">1:737760772570:android:5fbba7f00b998a5ed8c0e3</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBiIFpWRfjCagDZRWDBUWQdZb1qSJSm6d8</string>
+    <string name="google_storage_bucket" translatable="false">payvit-bdfcd.appspot.com</string>
+    <string name="project_id" translatable="false">payvit-bdfcd</string>
+</resources>
